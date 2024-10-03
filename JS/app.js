@@ -43,7 +43,7 @@ exemplo:
 
 // exercicio 
 //escreva um algorito que receba 3 notas, calcule a media e imprima na tela
-
+/*
 let nota1 = parseFloat (prompt("Digite primeira nota: "));
 let nota2 = parseFloat (prompt ("Digite segunda nota: "));
 let nota3 = parseFloat (prompt ("Digite terceira nota: "));
@@ -61,7 +61,7 @@ console.log(`Aprovado , nota : ${notaFinal}`);
 else{
 console.log(`Reprovado , nota : ${notaFinal}`);
 }
-
+*/
 /*
 O erro está na forma como as notas são somadas. O prompt retorna strings, então ao somar, você está concatenando, não somando números. Use parseFloat para converter as entradas. Tente assim:
 
