@@ -1,18 +1,18 @@
-let valorTotal =  prompt("Digite valor: ");
-let valorDesconto;
-let Resul;
+// let valorTotal =  prompt("Digite valor: ");
+// let valorDesconto;
+// let Resul;
 
 
-valorDesconto = valorTotal * 0.10;
-Resul = valorTotal - valorDesconto;
+// valorDesconto = valorTotal * 0.10;
+// Resul = valorTotal - valorDesconto;
 
-valorDesconto = valorDesconto.toFixed(2);
-Resul = Resul.toFixed(2);
+// valorDesconto = valorDesconto.toFixed(2);
+// Resul = Resul.toFixed(2);
 
 
-console.log(`valor sem desconto: ${valorTotal.toFixed(2).replace('.', ',')}`);
-console.log(`valor do desconto:${valorDesconto}`)
-console.log(`valor total:${Resul}`);
+// console.log(`valor sem desconto: ${valorTotal.toFixed(2).replace('.', ',')}`);
+// console.log(`valor do desconto:${valorDesconto}`)
+// console.log(`valor total:${Resul}`);
 
 
 
